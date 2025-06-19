@@ -1,18 +1,24 @@
-## Getting Started
+RestAPI Client – Cat Fact App
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a Java console application that fetches a random cat fact from a public REST API using HTTP requests and parses the JSON response.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📌 Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Fetches data from: [https://catfact.ninja/fact](https://catfact.ninja/fact)
+- Uses Java `HttpClient` for HTTP requests
+- Parses JSON using `org.json` library (json-20231013.jar)
+- Outputs a random cat fact in the console
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🧰 Requirements
 
-## Dependency Management
+- Java 11 or higher
+- `json-20231013.jar` library (downloaded manually)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+
+
