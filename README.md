@@ -20,5 +20,11 @@ This project is a Java console application that fetches a random cat fact from a
 
 ---
 
+## Output
+
+Fetching a cat fact....
+
+Random Cat Fact:
+A cat has 230 bones in its body. A human has 206. A cat has no collarbone, so it can fit through any opening the size of its head.
 
 
